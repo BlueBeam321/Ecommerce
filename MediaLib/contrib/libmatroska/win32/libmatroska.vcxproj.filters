@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{97dddd82-190e-42c1-8cf8-a4a6c62d8d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="matroska">
+      <UniqueIdentifier>{e48bb1fd-0ea3-4348-9b8c-1b72dcede38a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="matroska\c">
+      <UniqueIdentifier>{38ad4bb2-1f14-468a-80cb-6ca7b413f9e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\FileKax.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KaxAttached.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KaxAttachments.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KaxBlock.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KaxBlockData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KaxCluster.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KaxContexts.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KaxCues.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KaxCuesData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KaxInfoData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KaxSeekHead.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KaxSegment.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KaxSemantic.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KaxTracks.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KaxVersion.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\matroska\FileKax.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxAttached.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxAttachments.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxBlock.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxBlockData.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxChapters.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxCluster.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxClusterData.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxConfig.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxContentEncoding.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxContexts.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxCues.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxCuesData.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxDefines.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxInfo.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxInfoData.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxSeekHead.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxSegment.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxSemantic.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxTag.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxTags.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxTrackAudio.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxTrackEntryData.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxTracks.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxTrackVideo.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxTypes.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\KaxVersion.h">
+      <Filter>matroska</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\c\libmatroska.h">
+      <Filter>matroska\c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\matroska\c\libmatroska_t.h">
+      <Filter>matroska\c</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

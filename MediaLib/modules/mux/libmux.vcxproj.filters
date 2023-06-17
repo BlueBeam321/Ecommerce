@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="mpeg">
+      <UniqueIdentifier>{64757b2f-4bda-4ff8-9f4a-5c93c0ea530d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mpeg\ts.c">
+      <Filter>mpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mpeg\tsutil.c">
+      <Filter>mpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mpeg\csa.c">
+      <Filter>mpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mpeg\tables.c">
+      <Filter>mpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="mpeg\pes.c">
+      <Filter>mpeg</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

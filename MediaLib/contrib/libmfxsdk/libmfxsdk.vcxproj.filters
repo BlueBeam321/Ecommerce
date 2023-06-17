@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{f2615408-79d5-48e4-9085-90d752232e6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{00fab361-5976-4428-b18c-28e2d202ea2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\mfx">
+      <UniqueIdentifier>{026da0ad-4c42-4c44-8e60-151f72b3e067}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mfx_critical_section.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mfx_dispatcher.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mfx_dispatcher_log.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mfx_dxva2_device.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mfx_function_table.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mfx_library_iterator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mfx_load_dll.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mfx_load_plugin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mfx_plugin_hive.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mfx_win_reg_key.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\mfx\mfx_critical_section.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfx_dispatcher.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfx_dispatcher_defs.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfx_dispatcher_log.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfx_dxva2_device.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfx_exposed_functions_list.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfx_library_iterator.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfx_load_dll.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfx_load_plugin.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfx_plugin_hive.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfx_vector.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfx_win_reg_key.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxastructures.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxaudio.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxaudio_exposed_functions_list.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxaudio++.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxcamera.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxcommon.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxdefs.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxenc.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxjpeg.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxla.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxmvc.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxpak.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxplugin.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxplugin++.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxsc.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxsession.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxstructures.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxvideo.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxvideo++.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxvp8.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxvp9.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mfx\mfxvstructures.h">
+      <Filter>include\mfx</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="avcodec">
+      <UniqueIdentifier>{610f8fd0-e35d-4e53-8430-d038f0263a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="omxil">
+      <UniqueIdentifier>{bd0c5b49-c978-4bfc-af70-182bde615f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="spudec">
+      <UniqueIdentifier>{0cb05bab-417b-45f5-a393-a10a8e0491a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="avcodec\audio.c">
+      <Filter>avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="avcodec\avcodec.c">
+      <Filter>avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="avcodec\chroma.c">
+      <Filter>avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="avcodec\directx_va.c">
+      <Filter>avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="avcodec\dxva_blacklist.c">
+      <Filter>avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="avcodec\dxva2.c">
+      <Filter>avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="avcodec\encoder.c">
+      <Filter>avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="avcodec\fourcc.c">
+      <Filter>avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="avcodec\subtitle.c">
+      <Filter>avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="avcodec\va.c">
+      <Filter>avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="avcodec\va_surface.c">
+      <Filter>avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="avcodec\vaapi.c">
+      <Filter>avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="avcodec\video.c">
+      <Filter>avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="cc.c" />
+    <ClCompile Include="cea708.c" />
+    <ClCompile Include="atsc_a65.c" />
+    <ClCompile Include="opus.c" />
+    <ClCompile Include="opus_header.c" />
+    <ClCompile Include="omxil\mediacodec.c">
+      <Filter>omxil</Filter>
+    </ClCompile>
+    <ClCompile Include="omxil\mediacodec_jni.c">
+      <Filter>omxil</Filter>
+    </ClCompile>
+    <ClCompile Include="omxil\mediacodec_ndk.c">
+      <Filter>omxil</Filter>
+    </ClCompile>
+    <ClCompile Include="omxil\omxil.c">
+      <Filter>omxil</Filter>
+    </ClCompile>
+    <ClCompile Include="omxil\omxil_core.c">
+      <Filter>omxil</Filter>
+    </ClCompile>
+    <ClCompile Include="omxil\qcom.c">
+      <Filter>omxil</Filter>
+    </ClCompile>
+    <ClCompile Include="omxil\utils.c">
+      <Filter>omxil</Filter>
+    </ClCompile>
+    <ClCompile Include="omxil\vout.c">
+      <Filter>omxil</Filter>
+    </ClCompile>
+    <ClCompile Include="hxxx_helper.c" />
+    <ClCompile Include="libass.c" />
+    <ClCompile Include="spudec\parse.c">
+      <Filter>spudec</Filter>
+    </ClCompile>
+    <ClCompile Include="spudec\spudec.c">
+      <Filter>spudec</Filter>
+    </ClCompile>
+    <ClCompile Include="subsdec.c" />
+    <ClCompile Include="scte27.c" />
+    <ClCompile Include="rawvideo.c" />
+    <ClCompile Include="araw.c" />
+    <ClCompile Include="x264.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="avcodec\directx_va.h">
+      <Filter>avcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="avcodec\va.h">
+      <Filter>avcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="avcodec\va_surface_internal.h">
+      <Filter>avcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="cea708.h" />
+    <ClInclude Include="substext.h" />
+    <ClInclude Include="omxil\mediacodec.h">
+      <Filter>omxil</Filter>
+    </ClInclude>
+    <ClInclude Include="omxil\OMX_Audio.h">
+      <Filter>omxil</Filter>
+    </ClInclude>
+    <ClInclude Include="omxil\OMX_Broadcom.h">
+      <Filter>omxil</Filter>
+    </ClInclude>
+    <ClInclude Include="omxil\OMX_Component.h">
+      <Filter>omxil</Filter>
+    </ClInclude>
+    <ClInclude Include="omxil\OMX_Core.h">
+      <Filter>omxil</Filter>
+    </ClInclude>
+    <ClInclude Include="omxil\OMX_Image.h">
+      <Filter>omxil</Filter>
+    </ClInclude>
+    <ClInclude Include="omxil\OMX_Index.h">
+      <Filter>omxil</Filter>
+    </ClInclude>
+    <ClInclude Include="omxil\OMX_IVCommon.h">
+      <Filter>omxil</Filter>
+    </ClInclude>
+    <ClInclude Include="omxil\OMX_Other.h">
+      <Filter>omxil</Filter>
+    </ClInclude>
+    <ClInclude Include="omxil\OMX_Types.h">
+      <Filter>omxil</Filter>
+    </ClInclude>
+    <ClInclude Include="omxil\OMX_Video.h">
+      <Filter>omxil</Filter>
+    </ClInclude>
+    <ClInclude Include="omxil\omxil.h">
+      <Filter>omxil</Filter>
+    </ClInclude>
+    <ClInclude Include="omxil\omxil_core.h">
+      <Filter>omxil</Filter>
+    </ClInclude>
+    <ClInclude Include="omxil\omxil_utils.h">
+      <Filter>omxil</Filter>
+    </ClInclude>
+    <ClInclude Include="omxil\qcom.h">
+      <Filter>omxil</Filter>
+    </ClInclude>
+    <ClInclude Include="spudec\spudec.h">
+      <Filter>spudec</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

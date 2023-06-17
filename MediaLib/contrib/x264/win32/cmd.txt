@@ -1,0 +1,3 @@
+--fps 25/1 --threads 2 --weightp 2 --weightb --deblock -2:-2 --keyint 25 --min-keyint 24 --scenecut 0 -b 3 --b-pyramid 1 --b-adapt 0 --ref 2 --bitrate 3000 --vbv-maxrate 3000 --vbv-bufsize 3000 --input-res 720x576 -o D:\Work\RAW\D1\Bits\576i25_parkrun_ter_720x576_x2.x264 D:\Work\RAW\D1\576i25_parkrun_ter_720x576_x2.yuv
+
+--keyint 25 --min-keyint 25 --scenecut 0 -b 3 --b-pyramid 1 --b-adapt 0 --ref 2 --input-res 720x576 -o D:\Work\RAW\D1\Bits\576i25_parkrun_ter_720x576_x2.x264 D:\Work\RAW\D1\576i25_parkrun_ter_720x576_x2.yuv

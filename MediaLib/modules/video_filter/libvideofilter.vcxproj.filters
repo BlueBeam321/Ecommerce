@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="deinterlace">
+      <UniqueIdentifier>{682bd746-229e-4d77-b59a-0c4bc2884364}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="deinterlace\deinterlace.c">
+      <Filter>deinterlace</Filter>
+    </ClCompile>
+    <ClCompile Include="deinterlace\algo_basic.c">
+      <Filter>deinterlace</Filter>
+    </ClCompile>
+    <ClCompile Include="deinterlace\algo_ivtc.c">
+      <Filter>deinterlace</Filter>
+    </ClCompile>
+    <ClCompile Include="deinterlace\algo_phosphor.c">
+      <Filter>deinterlace</Filter>
+    </ClCompile>
+    <ClCompile Include="deinterlace\algo_x.c">
+      <Filter>deinterlace</Filter>
+    </ClCompile>
+    <ClCompile Include="deinterlace\algo_yadif.c">
+      <Filter>deinterlace</Filter>
+    </ClCompile>
+    <ClCompile Include="deinterlace\common.c">
+      <Filter>deinterlace</Filter>
+    </ClCompile>
+    <ClCompile Include="deinterlace\helpers.c">
+      <Filter>deinterlace</Filter>
+    </ClCompile>
+    <ClCompile Include="deinterlace\merge.c">
+      <Filter>deinterlace</Filter>
+    </ClCompile>
+    <ClCompile Include="blend.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="deinterlace\deinterlace.h">
+      <Filter>deinterlace</Filter>
+    </ClInclude>
+    <ClInclude Include="deinterlace\algo_basic.h">
+      <Filter>deinterlace</Filter>
+    </ClInclude>
+    <ClInclude Include="deinterlace\algo_ivtc.h">
+      <Filter>deinterlace</Filter>
+    </ClInclude>
+    <ClInclude Include="deinterlace\algo_phosphor.h">
+      <Filter>deinterlace</Filter>
+    </ClInclude>
+    <ClInclude Include="deinterlace\algo_x.h">
+      <Filter>deinterlace</Filter>
+    </ClInclude>
+    <ClInclude Include="deinterlace\algo_yadif.h">
+      <Filter>deinterlace</Filter>
+    </ClInclude>
+    <ClInclude Include="deinterlace\common.h">
+      <Filter>deinterlace</Filter>
+    </ClInclude>
+    <ClInclude Include="deinterlace\helpers.h">
+      <Filter>deinterlace</Filter>
+    </ClInclude>
+    <ClInclude Include="deinterlace\merge.h">
+      <Filter>deinterlace</Filter>
+    </ClInclude>
+    <ClInclude Include="filter_picture.h" />
+  </ItemGroup>
+</Project>

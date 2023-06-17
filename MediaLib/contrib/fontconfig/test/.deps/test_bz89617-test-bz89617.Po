@@ -1,0 +1,109 @@
+test_bz89617-test-bz89617.o: test-bz89617.c \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/stdio.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/sys/cdefs.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/sys/cdefs_elf.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/android/api-level.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/sys/types.h \
+ /work/STB/STBLib/Toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h \
+ /work/STB/STBLib/Toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/stdint.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/sys/_types.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/machine/_types.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/sys/_wchar_limits.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/linux/posix_types.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/linux/stddef.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/linux/compiler.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/asm/posix_types.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/asm/types.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/linux/types.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/machine/kernel.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/sys/sysmacros.h \
+ /work/STB/STBLib/Toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h \
+ ../fontconfig/fontconfig.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/sys/stat.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/sys/time.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/linux/time.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/linux/stat.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/endian.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/sys/endian.h \
+ /work/STB/STBLib/Toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/limits.h \
+ /work/STB/STBLib/Toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/syslimits.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/limits.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/sys/limits.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/linux/limits.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/machine/internal_types.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/machine/limits.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/sys/syslimits.h \
+ /work/STB/STBLib/Toolchain/sysroot/usr/include/asm/page.h
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/stdio.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/sys/cdefs.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/sys/cdefs_elf.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/android/api-level.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/sys/types.h:
+
+/work/STB/STBLib/Toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h:
+
+/work/STB/STBLib/Toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/stdint.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/sys/_types.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/machine/_types.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/sys/_wchar_limits.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/linux/posix_types.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/linux/stddef.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/linux/compiler.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/asm/posix_types.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/asm/types.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/linux/types.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/machine/kernel.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/sys/sysmacros.h:
+
+/work/STB/STBLib/Toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h:
+
+../fontconfig/fontconfig.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/sys/stat.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/sys/time.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/linux/time.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/linux/stat.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/endian.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/sys/endian.h:
+
+/work/STB/STBLib/Toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/limits.h:
+
+/work/STB/STBLib/Toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/syslimits.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/limits.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/sys/limits.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/linux/limits.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/machine/internal_types.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/machine/limits.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/sys/syslimits.h:
+
+/work/STB/STBLib/Toolchain/sysroot/usr/include/asm/page.h:

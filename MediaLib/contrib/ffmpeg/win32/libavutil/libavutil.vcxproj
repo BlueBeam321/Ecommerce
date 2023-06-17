@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\libavutil\adler32.c" />
+    <ClCompile Include="..\..\libavutil\aes.c" />
+    <ClCompile Include="..\..\libavutil\aes_ctr.c" />
+    <ClCompile Include="..\..\libavutil\audio_fifo.c" />
+    <ClCompile Include="..\..\libavutil\avstring.c" />
+    <ClCompile Include="..\..\libavutil\base64.c" />
+    <ClCompile Include="..\..\libavutil\blowfish.c" />
+    <ClCompile Include="..\..\libavutil\bprint.c" />
+    <ClCompile Include="..\..\libavutil\buffer.c" />
+    <ClCompile Include="..\..\libavutil\camellia.c" />
+    <ClCompile Include="..\..\libavutil\cast5.c" />
+    <ClCompile Include="..\..\libavutil\channel_layout.c" />
+    <ClCompile Include="..\..\libavutil\color_utils.c" />
+    <ClCompile Include="..\..\libavutil\cpu.c" />
+    <ClCompile Include="..\..\libavutil\crc.c" />
+    <ClCompile Include="..\..\libavutil\des.c" />
+    <ClCompile Include="..\..\libavutil\dict.c" />
+    <ClCompile Include="..\..\libavutil\display.c" />
+    <ClCompile Include="..\..\libavutil\downmix_info.c" />
+    <ClCompile Include="..\..\libavutil\error.c" />
+    <ClCompile Include="..\..\libavutil\eval.c" />
+    <ClCompile Include="..\..\libavutil\fifo.c" />
+    <ClCompile Include="..\..\libavutil\file.c" />
+    <ClCompile Include="..\..\libavutil\file_open.c" />
+    <ClCompile Include="..\..\libavutil\fixed_dsp.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\libavutil\float_dsp.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\libavutil\frame.c" />
+    <ClCompile Include="..\..\libavutil\hash.c" />
+    <ClCompile Include="..\..\libavutil\hmac.c" />
+    <ClCompile Include="..\..\libavutil\hwcontext.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\libavutil\hwcontext_cuda.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\libavutil\hwcontext_d3d11va.c" />
+    <ClCompile Include="..\..\libavutil\hwcontext_dxva2.c">
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</SDLCheck>
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</SDLCheck>
+      <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</SDLCheck>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">TurnOffAllWarnings</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TurnOffAllWarnings</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">TurnOffAllWarnings</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TurnOffAllWarnings</WarningLevel>
+    </ClCompile>
+    <ClCompile Include="..\..\libavutil\hwcontext_mediacodec.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\libavutil\hwcontext_qsv.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\libavutil\hwcontext_vaapi.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\libavutil\hwcontext_vdpau.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\libavutil\imgutils.c" />
+    <ClCompile Include="..\..\libavutil\integer.c" />
+    <ClCompile Include="..\..\libavutil\intmath.c" />
+    <ClCompile Include="..\..\libavutil\lfg.c" />
+    <ClCompile Include="..\..\libavutil\lls.c" />
+    <ClCompile Include="..\..\libavutil\log.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">g</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">g</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\libavutil\log2_tab.c" />
+    <ClCompile Include="..\..\libavutil\lzo.c" />
+    <ClCompile Include="..\..\libavutil\mastering_display_metadata.c" />
+    <ClCompile Include="..\..\libavutil\mathematics.c" />
+    <ClCompile Include="..\..\libavutil\md5.c" />
+    <ClCompile Include="..\..\libavutil\mem.c" />
+    <ClCompile Include="..\..\libavutil\murmur3.c" />
+    <ClCompile Include="..\..\libavutil\opt.c" />
+    <ClCompile Include="..\..\libavutil\parseutils.c" />
+    <ClCompile Include="..\..\libavutil\pca.c" />
+    <ClCompile Include="..\..\libavutil\pixdesc.c" />
+    <ClCompile Include="..\..\libavutil\pixelutils.c" />
+    <ClCompile Include="..\..\libavutil\random_seed.c" />
+    <ClCompile Include="..\..\libavutil\rational.c" />
+    <ClCompile Include="..\..\libavutil\rc4.c" />
+    <ClCompile Include="..\..\libavutil\reverse.c" />
+    <ClCompile Include="..\..\libavutil\ripemd.c" />
+    <ClCompile Include="..\..\libavutil\samplefmt.c" />
+    <ClCompile Include="..\..\libavutil\sha.c" />
+    <ClCompile Include="..\..\libavutil\sha512.c" />
+    <ClCompile Include="..\..\libavutil\slicethread.c" />
+    <ClCompile Include="..\..\libavutil\spherical.c" />
+    <ClCompile Include="..\..\libavutil\stereo3d.c" />
+    <ClCompile Include="..\..\libavutil\tea.c" />
+    <ClCompile Include="..\..\libavutil\threadmessage.c" />
+    <ClCompile Include="..\..\libavutil\time.c" />
+    <ClCompile Include="..\..\libavutil\timecode.c" />
+    <ClCompile Include="..\..\libavutil\tree.c" />
+    <ClCompile Include="..\..\libavutil\twofish.c" />
+    <ClCompile Include="..\..\libavutil\utils.c" />
+    <ClCompile Include="..\..\libavutil\xga_font_data.c" />
+    <ClCompile Include="..\..\libavutil\xtea.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\libavutil\adler32.h" />
+    <ClInclude Include="..\..\libavutil\aes.h" />
+    <ClInclude Include="..\..\libavutil\aes_ctr.h" />
+    <ClInclude Include="..\..\libavutil\aes_internal.h" />
+    <ClInclude Include="..\..\libavutil\attributes.h" />
+    <ClInclude Include="..\..\libavutil\audio_fifo.h" />
+    <ClInclude Include="..\..\libavutil\avassert.h" />
+    <ClInclude Include="..\..\libavutil\avstring.h" />
+    <ClInclude Include="..\..\libavutil\avutil.h" />
+    <ClInclude Include="..\..\libavutil\base64.h" />
+    <ClInclude Include="..\..\libavutil\blowfish.h" />
+    <ClInclude Include="..\..\libavutil\bprint.h" />
+    <ClInclude Include="..\..\libavutil\bswap.h" />
+    <ClInclude Include="..\..\libavutil\buffer.h" />
+    <ClInclude Include="..\..\libavutil\buffer_internal.h" />
+    <ClInclude Include="..\..\libavutil\camellia.h" />
+    <ClInclude Include="..\..\libavutil\cast5.h" />
+    <ClInclude Include="..\..\libavutil\channel_layout.h" />
+    <ClInclude Include="..\..\libavutil\colorspace.h" />
+    <ClInclude Include="..\..\libavutil\color_utils.h" />
+    <ClInclude Include="..\..\libavutil\common.h" />
+    <ClInclude Include="..\..\libavutil\cpu.h" />
+    <ClInclude Include="..\..\libavutil\cpu_internal.h" />
+    <ClInclude Include="..\..\libavutil\crc.h" />
+    <ClInclude Include="..\..\libavutil\des.h" />
+    <ClInclude Include="..\..\libavutil\dict.h" />
+    <ClInclude Include="..\..\libavutil\display.h" />
+    <ClInclude Include="..\..\libavutil\downmix_info.h" />
+    <ClInclude Include="..\..\libavutil\dynarray.h" />
+    <ClInclude Include="..\..\libavutil\error.h" />
+    <ClInclude Include="..\..\libavutil\eval.h" />
+    <ClInclude Include="..\..\libavutil\ffmath.h" />
+    <ClInclude Include="..\..\libavutil\fifo.h" />
+    <ClInclude Include="..\..\libavutil\file.h" />
+    <ClInclude Include="..\..\libavutil\fixed_dsp.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\libavutil\float_dsp.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\libavutil\frame.h" />
+    <ClInclude Include="..\..\libavutil\hash.h" />
+    <ClInclude Include="..\..\libavutil\hmac.h" />
+    <ClInclude Include="..\..\libavutil\hwcontext.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\libavutil\hwcontext_cuda.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\libavutil\hwcontext_d3d11va.h" />
+    <ClInclude Include="..\..\libavutil\hwcontext_dxva2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\libavutil\hwcontext_internal.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\libavutil\hwcontext_mediacodec.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\libavutil\hwcontext_qsv.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\libavutil\hwcontext_vaapi.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\libavutil\hwcontext_vdpau.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\libavutil\imgutils.h" />
+    <ClInclude Include="..\..\libavutil\integer.h" />
+    <ClInclude Include="..\..\libavutil\internal.h" />
+    <ClInclude Include="..\..\libavutil\intfloat.h" />
+    <ClInclude Include="..\..\libavutil\intmath.h" />
+    <ClInclude Include="..\..\libavutil\intreadwrite.h" />
+    <ClInclude Include="..\..\libavutil\lfg.h" />
+    <ClInclude Include="..\..\libavutil\libm.h" />
+    <ClInclude Include="..\..\libavutil\lls.h" />
+    <ClInclude Include="..\..\libavutil\log.h" />
+    <ClInclude Include="..\..\libavutil\lzo.h" />
+    <ClInclude Include="..\..\libavutil\macros.h" />
+    <ClInclude Include="..\..\libavutil\mastering_display_metadata.h" />
+    <ClInclude Include="..\..\libavutil\mathematics.h" />
+    <ClInclude Include="..\..\libavutil\md5.h" />
+    <ClInclude Include="..\..\libavutil\mem.h" />
+    <ClInclude Include="..\..\libavutil\mem_internal.h" />
+    <ClInclude Include="..\..\libavutil\motion_vector.h" />
+    <ClInclude Include="..\..\libavutil\murmur3.h" />
+    <ClInclude Include="..\..\libavutil\opt.h" />
+    <ClInclude Include="..\..\libavutil\parseutils.h" />
+    <ClInclude Include="..\..\libavutil\pca.h" />
+    <ClInclude Include="..\..\libavutil\pixdesc.h" />
+    <ClInclude Include="..\..\libavutil\pixelutils.h" />
+    <ClInclude Include="..\..\libavutil\pixfmt.h" />
+    <ClInclude Include="..\..\libavutil\qsort.h" />
+    <ClInclude Include="..\..\libavutil\random_seed.h" />
+    <ClInclude Include="..\..\libavutil\rational.h" />
+    <ClInclude Include="..\..\libavutil\rc4.h" />
+    <ClInclude Include="..\..\libavutil\replaygain.h" />
+    <ClInclude Include="..\..\libavutil\ripemd.h" />
+    <ClInclude Include="..\..\libavutil\samplefmt.h" />
+    <ClInclude Include="..\..\libavutil\sha.h" />
+    <ClInclude Include="..\..\libavutil\sha512.h" />
+    <ClInclude Include="..\..\libavutil\slicethread.h" />
+    <ClInclude Include="..\..\libavutil\softfloat.h" />
+    <ClInclude Include="..\..\libavutil\softfloat_tables.h" />
+    <ClInclude Include="..\..\libavutil\spherical.h" />
+    <ClInclude Include="..\..\libavutil\stereo3d.h" />
+    <ClInclude Include="..\..\libavutil\tablegen.h" />
+    <ClInclude Include="..\..\libavutil\tea.h" />
+    <ClInclude Include="..\..\libavutil\thread.h" />
+    <ClInclude Include="..\..\libavutil\threadmessage.h" />
+    <ClInclude Include="..\..\libavutil\time.h" />
+    <ClInclude Include="..\..\libavutil\timecode.h" />
+    <ClInclude Include="..\..\libavutil\timer.h" />
+    <ClInclude Include="..\..\libavutil\timestamp.h" />
+    <ClInclude Include="..\..\libavutil\time_internal.h" />
+    <ClInclude Include="..\..\libavutil\tree.h" />
+    <ClInclude Include="..\..\libavutil\twofish.h" />
+    <ClInclude Include="..\..\libavutil\version.h" />
+    <ClInclude Include="..\..\libavutil\wchar_filename.h" />
+    <ClInclude Include="..\..\libavutil\xga_font_data.h" />
+    <ClInclude Include="..\..\libavutil\xtea.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libavutil.def" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{199DCA74-327D-418F-B4A9-04ABEBCD96BC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ffmpeg</RootNamespace>
+    <ProjectName>libavutil</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\bin\</OutDir>
+    <IntDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\bin\</OutDir>
+    <IntDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\bin\</OutDir>
+    <IntDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\bin\</OutDir>
+    <IntDir>$(SolutionDir)Output\$(Platform)\$(Configuration)\obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>inline=__inline;ssize_t=long;snprintf=avpriv_snprintf;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\;$(ProjectDir)..\..\compat\msvcrt\;$(ProjectDir)..\..\compat\atomics\win32;$(ProjectDir)..\..\..\libmfxsdk\include</AdditionalIncludeDirectories>
+      <C99Support>true</C99Support>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>compat.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <Lib>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>inline=__inline;ssize_t=long;snprintf=avpriv_snprintf;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\;$(ProjectDir)..\..\compat\msvcrt\;$(ProjectDir)..\..\compat\atomics\win32;$(ProjectDir)..\..\..\libmfxsdk\include</AdditionalIncludeDirectories>
+      <C99Support>true</C99Support>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>compat.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <Lib>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>inline=__inline;ssize_t=long;snprintf=avpriv_snprintf;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\;$(ProjectDir)..\..\compat\msvcrt\;$(ProjectDir)..\..\compat\atomics\win32;$(ProjectDir)..\..\..\libmfxsdk\include</AdditionalIncludeDirectories>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>compat.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>inline=__inline;ssize_t=long;snprintf=avpriv_snprintf;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\;$(ProjectDir)..\..\;$(ProjectDir)..\..\compat\msvcrt\;$(ProjectDir)..\..\compat\atomics\win32;$(ProjectDir)..\..\..\libmfxsdk\include</AdditionalIncludeDirectories>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>compat.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

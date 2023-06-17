@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="freetype">
+      <UniqueIdentifier>{fc14e2f0-14e3-4674-b56f-63ddfdd214ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freetype\fonts">
+      <UniqueIdentifier>{1a1f0728-fa98-40fd-95ba-64b20a3aaedd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="freetype\platform_fonts.c">
+      <Filter>freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="freetype\text_layout.c">
+      <Filter>freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="freetype\freetype2.c">
+      <Filter>freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="freetype\fonts\android.c">
+      <Filter>freetype\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="freetype\fonts\darwin.c">
+      <Filter>freetype\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="freetype\fonts\fontconfig.c">
+      <Filter>freetype\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="freetype\fonts\win32.c">
+      <Filter>freetype\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="sapi.cpp" />
+    <ClCompile Include="tdummy.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="freetype\platform_fonts.h">
+      <Filter>freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\text_layout.h">
+      <Filter>freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\freetype2.h">
+      <Filter>freetype</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

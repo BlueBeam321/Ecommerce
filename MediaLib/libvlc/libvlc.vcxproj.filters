@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="audio.c" />
+    <ClCompile Include="core.c" />
+    <ClCompile Include="error.c" />
+    <ClCompile Include="event.c" />
+    <ClCompile Include="exit.c" />
+    <ClCompile Include="libvlc_module.c" />
+    <ClCompile Include="libvlc.c" />
+    <ClCompile Include="log.c" />
+    <ClCompile Include="media.c" />
+    <ClCompile Include="media_player.c" />
+    <ClCompile Include="messages.c" />
+    <ClCompile Include="specific.c" />
+    <ClCompile Include="video.c" />
+    <ClCompile Include="android\api.c">
+      <Filter>android</Filter>
+    </ClCompile>
+    <ClCompile Include="media_list.c" />
+    <ClCompile Include="media_list_player.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libvlc_internal.h" />
+    <ClInclude Include="media_internal.h" />
+    <ClInclude Include="media_player_internal.h" />
+    <ClInclude Include="..\include\vlc_access.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_actions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_aout.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_aout_volume.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_arrays.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_atomic.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_avcodec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_bits.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_block.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_block_helper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_boxes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_charset.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_codecs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_config_cat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_configuration.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_cpu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_demux.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_epg.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_es.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_es_out.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_events.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_extensions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_filter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_fingerprinter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_fixups.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_fourcc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_fs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_gcrypt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_getopt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_http.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_httpd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_image.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_inhibit.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_input.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_input_item.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_interface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_interrupt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_intf_strings.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_iso_lang.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_keystore.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_md5.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_memory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_memstream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_messages.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_meta.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_meta_fetcher.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_mime.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_modules.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_mouse.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_mtime.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_network.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_objects.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_opengl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_pgpkey.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_picture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_picture_fifo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_picture_pool.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_playlist.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_plugin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_probe.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_rand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_renderer_discovery.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_services_discovery.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_sout.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_spu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_stream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_stream_extractor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_strings.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_subpicture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_text_style.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_threads.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_timestamp_helper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_tls.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_url.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_variables.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_video_splitter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_viewpoint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_vod.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_vout.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_vout_display.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_vout_osd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_vout_window.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_vout_wrapper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_xlib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_xml.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\win32\dirent.h">
+      <Filter>include\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\win32\stdalign.h">
+      <Filter>include\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\win32\stdatomic.h">
+      <Filter>include\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="media_list_internal.h" />
+    <ClInclude Include="media_list_path.h" />
+    <ClInclude Include="..\include\vlc\deprecated.h">
+      <Filter>include\vlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc\libvlc_events.h">
+      <Filter>include\vlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc\libvlc_instance.h">
+      <Filter>include\vlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc\libvlc_media.h">
+      <Filter>include\vlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc\libvlc_media_list.h">
+      <Filter>include\vlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc\libvlc_media_list_player.h">
+      <Filter>include\vlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc\libvlc_media_player.h">
+      <Filter>include\vlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc\vlc.h">
+      <Filter>include\vlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\vlc_internal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{e8b17a03-37d7-4564-902c-39f038dd94ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\win32">
+      <UniqueIdentifier>{c5cae42f-400e-49a6-b122-51c59d439b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="android">
+      <UniqueIdentifier>{e0b000b7-d0a4-49e2-b690-811320c453c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\vlc">
+      <UniqueIdentifier>{5517c6a2-ec95-42a9-ac71-0c30af0b7523}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\x264.c" />
+    <ClCompile Include="..\output\raw.c">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\input\input.c">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\input\raw.c">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\input\thread.c">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\input\timecode.c">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\input\y4m.c">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extras\getopt.c">
+      <Filter>extras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filters\filters.c">
+      <Filter>filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filters\video\cache.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filters\video\crop.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filters\video\depth.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filters\video\fix_vfr_pts.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filters\video\internal.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filters\video\resize.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filters\video\select_every.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filters\video\source.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\filters\video\video.c">
+      <Filter>filters\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\output\flv.c">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\output\matroska.c">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\output\matroska_ebml.c">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\output\flv_bytestream.c">
+      <Filter>output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\input\avs.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="output">
+      <UniqueIdentifier>{e5ee825b-2127-4815-974e-66b1b802233f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{c43ce920-2158-43e0-8d2a-0ae4df2603d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extras">
+      <UniqueIdentifier>{ea2fd05b-8f9d-478c-bd8e-26a8593fb94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters">
+      <UniqueIdentifier>{c5a9ed45-fe6a-48b6-a8c3-dfbbfc7e5078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters\video">
+      <UniqueIdentifier>{e87ede3e-d102-424a-a1d3-0e2bdd4ba1d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\output\output.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\input\input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extras\getopt.h">
+      <Filter>extras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extras\inttypes.h">
+      <Filter>extras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extras\stdint.h">
+      <Filter>extras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\filters\filters.h">
+      <Filter>filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\filters\video\internal.h">
+      <Filter>filters\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\filters\video\video.h">
+      <Filter>filters\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\output\matroska_ebml.h">
+      <Filter>output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\output\flv_bytestream.h">
+      <Filter>output</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cmd.txt" />
+  </ItemGroup>
+</Project>

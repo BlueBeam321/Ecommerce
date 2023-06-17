@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{0144c4c8-b9d4-4973-896d-6a6a8dde9f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tables">
+      <UniqueIdentifier>{4cf619a5-9c09-444f-9c3b-5c0277762d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\descriptors">
+      <UniqueIdentifier>{1aa0f9b9-18e8-4fe9-9c56-1a9fbcfa4fae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\demux.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptor.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dvbpsi.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\psi.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tables\atsc_eit.c">
+      <Filter>src\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tables\atsc_ett.c">
+      <Filter>src\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tables\atsc_mgt.c">
+      <Filter>src\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tables\atsc_stt.c">
+      <Filter>src\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tables\atsc_vct.c">
+      <Filter>src\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tables\bat.c">
+      <Filter>src\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tables\cat.c">
+      <Filter>src\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tables\eit.c">
+      <Filter>src\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tables\nit.c">
+      <Filter>src\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tables\pat.c">
+      <Filter>src\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tables\pmt.c">
+      <Filter>src\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tables\rst.c">
+      <Filter>src\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tables\sdt.c">
+      <Filter>src\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tables\sis.c">
+      <Filter>src\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tables\tot.c">
+      <Filter>src\tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_0a.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_0b.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_0c.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_0d.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_0e.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_0f.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_1b.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_1c.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_02.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_03.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_04.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_4a.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_4b.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_4c.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_4d.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_4e.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_4f.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_05.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_5a.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_06.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_07.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_7c.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_08.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_8a.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_09.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_10.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_11.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_12.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_13.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_14.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_40.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_41.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_42.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_43.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_44.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_45.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_47.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_48.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_49.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_50.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_52.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_53.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_54.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_55.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_56.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_58.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_59.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_62.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_66.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_69.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_73.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_76.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_81.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_83.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_86.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_a0.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_a1.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\descriptors\dr_80.c">
+      <Filter>src\descriptors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\demux.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dvbpsi.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dvbpsi_private.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\psi.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\atsc_eit.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\atsc_ett.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\atsc_mgt.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\atsc_stt.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\atsc_vct.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\bat.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\bat_private.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\cat.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\cat_private.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\eit.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\eit_private.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\nit.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\nit_private.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\pat.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\pat_private.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\pmt.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\pmt_private.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\rst.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\rst_private.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\sdt.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\sdt_private.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\sis.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\sis_private.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\tot.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tables\tot_private.h">
+      <Filter>src\tables</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_0a.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_0b.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_0c.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_0d.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_0e.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_0f.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_1b.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_1c.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_02.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_03.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_04.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_4a.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_4b.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_4c.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_4d.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_4e.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_4f.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_05.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_5a.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_06.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_07.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_7c.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_08.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_8a.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_09.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_10.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_11.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_12.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_13.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_14.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_40.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_41.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_42.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_43.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_44.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_45.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_47.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_48.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_49.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_50.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_52.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_53.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_54.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_55.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_56.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_58.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_59.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_62.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_66.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_69.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_73.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_76.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_81.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_83.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_86.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_a0.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_a1.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\descriptors\dr_80.h">
+      <Filter>src\descriptors</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{eb472b70-1e3c-4ac8-9c9b-eee6e54a3230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\win32">
+      <UniqueIdentifier>{ae696c83-1882-4417-974c-a014db184ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ebml">
+      <UniqueIdentifier>{75bbe549-a99a-4072-85e9-f2401d4952fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ebml\c">
+      <UniqueIdentifier>{764e7873-f2f2-4b55-923a-88502c5ab3eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Debug.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EbmlBinary.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EbmlContexts.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EbmlCrc32.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EbmlDate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EbmlDummy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EbmlElement.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EbmlFloat.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EbmlHead.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EbmlMaster.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EbmlSInteger.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EbmlStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EbmlString.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EbmlSubHead.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EbmlUInteger.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EbmlUnicodeString.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EbmlVersion.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EbmlVoid.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IOCallback.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MemIOCallback.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MemReadIOCallback.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SafeReadIOCallback.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\StdIOCallback.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\platform\win32\WinIOCallback.cpp">
+      <Filter>src\win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\platform\win32\WinIOCallback.h">
+      <Filter>src\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\Debug.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlBinary.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlConfig.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlContexts.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlCrc32.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlDate.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlDummy.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlElement.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlEndian.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlFloat.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlHead.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlId.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlMaster.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlSInteger.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlStream.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlString.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlSubHead.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlTypes.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlUInteger.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlUnicodeString.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlVersion.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\EbmlVoid.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\IOCallback.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\MemIOCallback.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\MemReadIOCallback.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\SafeReadIOCallback.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\StdIOCallback.h">
+      <Filter>ebml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ebml\c\libebml_t.h">
+      <Filter>ebml\c</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
