@@ -25,10 +25,11 @@
     "web3": "^1.7.0"
   },
   "scripts": {
-    "start": "node src/setupTests.js | react-app-rewired start",
+    "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
+    "eject": "react-app-rewired eject",
+    "setupTest" : "node src/setupTests.js"
   },
   "eslintConfig": {
     "extends": [
